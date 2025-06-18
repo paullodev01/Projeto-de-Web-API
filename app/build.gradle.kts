@@ -50,6 +50,8 @@ dependencies {
     implementation(libs.androidx.lifecycle.livedata.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.glide.main)
+    implementation(libs.okhttp)
+    implementation(libs.logging.interceptor)
     ksp(libs.glide.ksp.processor)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
