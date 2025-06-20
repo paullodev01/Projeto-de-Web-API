@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_bottom_sheet_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:textAppearance="?attr/textAppearanceHeadline6"
+        tools:text="Benefícios do Crédito" />
+
+    <!-- Usaremos um TextView para exibir os benefícios formatados.
+         Para uma lista mais complexa, um RecyclerView seria melhor aqui também. -->
+    <TextView
+        android:id="@+id/tv_bottom_sheet_benefits_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceBody1"
+        tools:text="• Taxas de juros reduzidas.\n• Prazos flexíveis para pagamento.\n• Liberação rápida do crédito." />
+
+    <Button
+        android:id="@+id/btn_bottom_sheet_close"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="24dp"
+        android:text="Fechar" />
+
+</LinearLayout>

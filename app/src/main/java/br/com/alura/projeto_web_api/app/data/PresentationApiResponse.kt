@@ -1,6 +1,7 @@
-package br.com.alura.projeto_web_api.data
+package br.com.alura.projeto_web_api.app.data
 
 import com.google.gson.annotations.SerializedName
+
 
 // essa é a raiz da resposta da API
 data class PresentationApiResponse(

@@ -1,4 +1,4 @@
-package br.com.alura.projeto_web_api.data
+package br.com.alura.projeto_web_api.app.data
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

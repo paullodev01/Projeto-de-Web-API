@@ -1,6 +1,5 @@
-package br.com.alura.projeto_web_api.data
+package br.com.alura.projeto_web_api.app.data
 
-import br.com.alura.projeto_web_api.data.PresentationApiResponse
 import retrofit2.Response
 import retrofit2.http.GET
 
